@@ -1,5 +1,18 @@
 # Signalpost reference agent
 
+> **Kinpaku Signalpost Agent (this entry).** Evaluator command:
+>
+> ```bash
+> uv sync --frozen
+> uv run python scripts/run_signalpost.py --organisations <batch.jsonl> --output out/envelopes.jsonl --run-id <run-id>
+> ```
+>
+> It emits one OUTPUT_CONTRACT envelope per input (`claims`, claim-level `evidence`, `changes`, `errors`,
+> `operations`). It uses only the public Brreg APIs plus verified company websites: no models, no API
+> keys, $0 third-party cost (also $0 for a 1,000-company batch). Setup, flags, sources and precision rules
+> are in [SUBMISSION_NOTES.md](SUBMISSION_NOTES.md); live 100-company results are in
+> [SMOKE_TEST_REPORT.md](SMOKE_TEST_REPORT.md). The original starter-kit text follows unchanged.
+
 This is a runnable starting point for the Signalpost company-research challenge. It is intentionally a solid baseline, not a winning submission.
 
 The public universe contains 411,160 eligible companies. Run the starter on 100 companies before submitting. Larger local tests, including 1,000 or more companies, are encouraged but their precomputed profiles are not submitted or scored.

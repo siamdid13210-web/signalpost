@@ -1,0 +1,1456 @@
+{
+  "organisation_number": "926311735",
+  "agent": {
+    "name": "Kinpaku Signalpost Agent",
+    "version": "1.0.0"
+  },
+  "run": {
+    "run_id": "smoke-A",
+    "started_at": "2026-11-17T10:11:01Z",
+    "completed_at": "2026-11-17T10:11:17Z",
+    "terminal_status": "completed",
+    "previous_run_id": null
+  },
+  "sections": {
+    "identity": {
+      "availability": "available"
+    },
+    "leadership": {
+      "availability": "available",
+      "role_count": 3
+    },
+    "workplaces": {
+      "availability": "available",
+      "count": 0
+    },
+    "financials": {
+      "availability": "available",
+      "periods": 3,
+      "group_periods": 0
+    },
+    "group": {
+      "availability": "not_applicable",
+      "note": "Registry flags the entity as not part of a group (erIKonsern=false)."
+    },
+    "website": {
+      "availability": "not_available"
+    },
+    "hiring": {
+      "availability": "not_available"
+    }
+  },
+  "claims": [
+    {
+      "field": "organisation_number",
+      "section": "identity",
+      "value": "926311735",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-1"
+      ]
+    },
+    {
+      "field": "legal_name",
+      "section": "identity",
+      "value": "IHP INVEST AS",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-2"
+      ]
+    },
+    {
+      "field": "organisation_form",
+      "section": "identity",
+      "value": {
+        "code": "AS",
+        "description": "Aksjeselskap"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-3",
+        "ev-4"
+      ]
+    },
+    {
+      "field": "registration_date",
+      "section": "identity",
+      "value": "2020-12-30",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-5"
+      ]
+    },
+    {
+      "field": "foundation_date",
+      "section": "identity",
+      "value": "2020-12-03",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-6"
+      ]
+    },
+    {
+      "field": "articles_of_association_date",
+      "section": "identity",
+      "value": "2020-12-03",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-7"
+      ]
+    },
+    {
+      "field": "business_register",
+      "section": "identity",
+      "value": {
+        "registered": true,
+        "registration_date": "2020-12-30"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-8",
+        "ev-9"
+      ]
+    },
+    {
+      "field": "vat_register",
+      "section": "identity",
+      "value": {
+        "registered": false,
+        "registration_date": null
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-10"
+      ]
+    },
+    {
+      "field": "industry_primary",
+      "section": "identity",
+      "value": {
+        "code": "68.110",
+        "description": "Kjøp og salg av egen fast eiendom",
+        "rank": 1
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-11"
+      ]
+    },
+    {
+      "field": "institutional_sector",
+      "section": "identity",
+      "value": {
+        "code": "2100",
+        "description": "Private aksjeselskaper mv."
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-12"
+      ]
+    },
+    {
+      "field": "employees",
+      "section": "identity",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [
+        "ev-13"
+      ],
+      "note": "The registry returns no registered employee count for this entity (not the same as zero)."
+    },
+    {
+      "field": "business_address",
+      "section": "identity",
+      "value": {
+        "formatted": "c/o Tyveholmen Kontorfellesskap, Tjuvholmen allé 19, 0252 OSLO",
+        "adresse": [
+          "c/o Tyveholmen Kontorfellesskap",
+          "Tjuvholmen allé 19"
+        ],
+        "postnummer": "0252",
+        "poststed": "OSLO",
+        "kommune": "OSLO",
+        "kommunenummer": "0301",
+        "land": "Norge",
+        "landkode": "NO"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-14"
+      ]
+    },
+    {
+      "field": "municipality",
+      "section": "identity",
+      "value": {
+        "name": "OSLO",
+        "number": "0301"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-15",
+        "ev-16"
+      ]
+    },
+    {
+      "field": "bankrupt",
+      "section": "status",
+      "value": {
+        "value": false,
+        "date": null
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-17"
+      ]
+    },
+    {
+      "field": "under_liquidation",
+      "section": "status",
+      "value": {
+        "value": false,
+        "date": null
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-18"
+      ]
+    },
+    {
+      "field": "under_forced_liquidation_or_dissolution",
+      "section": "status",
+      "value": {
+        "value": false,
+        "date": null
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-19"
+      ]
+    },
+    {
+      "field": "registry_status",
+      "section": "status",
+      "value": {
+        "status": "active",
+        "bankrupt": false,
+        "under_liquidation": false,
+        "under_forced_liquidation_or_dissolution": false
+      },
+      "availability": "available",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "ev-17",
+        "ev-18",
+        "ev-19"
+      ],
+      "note": "Derived only from the cited registry flags."
+    },
+    {
+      "field": "share_capital",
+      "section": "identity",
+      "value": {
+        "amount": 30000,
+        "currency": "NOK",
+        "type": "Aksjekapital",
+        "shares": 100,
+        "fully_paid": null,
+        "registered_at": "2020-12-30"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-20"
+      ]
+    },
+    {
+      "field": "statutory_purpose",
+      "section": "profile",
+      "value": "Selskapets virksomhet er selv, gjennom hel- eller deleide selskaper, å drive investeringsvirksomhet, herunder investering i aksjer, obligasjoner, selskapsandeler, verdipapirer, fast eiendom, eller i annen virksomhet, og alt som er forbundet med dette.",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-21"
+      ]
+    },
+    {
+      "field": "registered_activity",
+      "section": "profile",
+      "value": "Selskapets virksomhet er selv, gjennom hel- eller deleide selskaper, å drive investeringsvirksomhet, herunder investering i aksjer, obligasjoner, selskapsandeler, verdipapirer, fast eiendom, eller i annen virksomhet, og alt som er forbundet med dette.",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-22"
+      ]
+    },
+    {
+      "field": "part_of_group",
+      "section": "group",
+      "value": false,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-23"
+      ]
+    },
+    {
+      "field": "latest_submitted_annual_accounts_year",
+      "section": "financials",
+      "value": "2025",
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-24"
+      ]
+    },
+    {
+      "field": "board_chair",
+      "section": "leadership",
+      "value": {
+        "type": "person",
+        "name": "Inger Helene Paulsen Kildahl",
+        "role_code": "LEDE",
+        "role": "Styrets leder"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-25"
+      ]
+    },
+    {
+      "field": "board_members",
+      "section": "leadership",
+      "value": [
+        {
+          "type": "person",
+          "name": "Jørgen Andreas Paulsen",
+          "role_code": "MEDL",
+          "role": "Styremedlem"
+        }
+      ],
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-26"
+      ]
+    },
+    {
+      "field": "accountant",
+      "section": "leadership",
+      "value": {
+        "type": "organisation",
+        "name": "STATEMENT AS",
+        "organisation_number": "979607008",
+        "role_code": "REGN",
+        "role": "Regnskapsfører"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-27"
+      ]
+    },
+    {
+      "field": "chief_executive",
+      "section": "leadership",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [
+        "ev-28"
+      ],
+      "note": "Roles source checked; no such active role is registered."
+    },
+    {
+      "field": "registered_roles",
+      "section": "leadership",
+      "value": [
+        {
+          "type": "person",
+          "name": "Inger Helene Paulsen Kildahl",
+          "role_code": "LEDE",
+          "role": "Styrets leder",
+          "group": "Styre",
+          "group_last_changed": "2020-12-30"
+        },
+        {
+          "type": "person",
+          "name": "Jørgen Andreas Paulsen",
+          "role_code": "MEDL",
+          "role": "Styremedlem",
+          "group": "Styre",
+          "group_last_changed": "2020-12-30"
+        },
+        {
+          "type": "organisation",
+          "name": "STATEMENT AS",
+          "organisation_number": "979607008",
+          "role_code": "REGN",
+          "role": "Regnskapsfører",
+          "group": "Regnskapsfører",
+          "group_last_changed": "2021-01-19"
+        }
+      ],
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-25",
+        "ev-26",
+        "ev-27"
+      ]
+    },
+    {
+      "field": "registered_workplace_count",
+      "section": "workplaces",
+      "value": 0,
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-29"
+      ],
+      "note": "Registered sub-units (underenheter) in Enhetsregisteret. Zero means the registry was checked and returned none."
+    },
+    {
+      "field": "latest_accounts_period",
+      "section": "financials",
+      "value": {
+        "from": "2025-01-01",
+        "to": "2025-12-31",
+        "account_type": "company"
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30"
+      ]
+    },
+    {
+      "field": "revenue",
+      "section": "financials",
+      "value": {
+        "amount": 0,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-32"
+      ]
+    },
+    {
+      "field": "operating_expenses",
+      "section": "financials",
+      "value": {
+        "amount": 34486,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-33"
+      ]
+    },
+    {
+      "field": "payroll_expenses",
+      "section": "financials",
+      "value": {
+        "amount": 0,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-34"
+      ]
+    },
+    {
+      "field": "operating_result",
+      "section": "financials",
+      "value": {
+        "amount": -34486,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-35"
+      ]
+    },
+    {
+      "field": "net_financial_items",
+      "section": "financials",
+      "value": {
+        "amount": 1038294,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-36"
+      ]
+    },
+    {
+      "field": "profit_before_tax",
+      "section": "financials",
+      "value": {
+        "amount": 1003808,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-37"
+      ]
+    },
+    {
+      "field": "net_result",
+      "section": "financials",
+      "value": {
+        "amount": 999620,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-38"
+      ]
+    },
+    {
+      "field": "total_assets",
+      "section": "financials",
+      "value": {
+        "amount": 7814799,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-39"
+      ]
+    },
+    {
+      "field": "fixed_assets",
+      "section": "financials",
+      "value": {
+        "amount": 6787194,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-40"
+      ]
+    },
+    {
+      "field": "current_assets",
+      "section": "financials",
+      "value": {
+        "amount": 1027605,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-41"
+      ]
+    },
+    {
+      "field": "cash_and_bank_deposits",
+      "section": "financials",
+      "value": {
+        "amount": 1027605,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-42"
+      ]
+    },
+    {
+      "field": "equity",
+      "section": "financials",
+      "value": {
+        "amount": 7802053,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-43"
+      ]
+    },
+    {
+      "field": "total_debt",
+      "section": "financials",
+      "value": {
+        "amount": 12746,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-44"
+      ]
+    },
+    {
+      "field": "short_term_debt",
+      "section": "financials",
+      "value": {
+        "amount": 12746,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        },
+        "currency": "NOK",
+        "account_type": "company",
+        "source_record_id": 6543227
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-31",
+        "ev-45"
+      ]
+    },
+    {
+      "field": "accounts_audit",
+      "section": "financials",
+      "value": {
+        "not_audited": false,
+        "audit_opted_out": true,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        }
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-46"
+      ]
+    },
+    {
+      "field": "liquidation_accounts",
+      "section": "financials",
+      "value": {
+        "value": false,
+        "period": {
+          "from": "2025-01-01",
+          "to": "2025-12-31"
+        }
+      },
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-47"
+      ]
+    },
+    {
+      "field": "financial_history",
+      "section": "financials",
+      "value": [
+        {
+          "period": {
+            "from": "2023-01-01",
+            "to": "2023-12-31"
+          },
+          "currency": "NOK",
+          "revenue": 0,
+          "operating_result": -24621,
+          "profit_before_tax": 102410,
+          "net_result": 106982,
+          "total_assets": 6896038,
+          "equity": 6889075,
+          "total_debt": 6963
+        },
+        {
+          "period": {
+            "from": "2024-01-01",
+            "to": "2024-12-31"
+          },
+          "currency": "NOK",
+          "revenue": 0,
+          "operating_result": -25208,
+          "profit_before_tax": 553195,
+          "net_result": 553357,
+          "total_assets": 7241155,
+          "equity": 7232433,
+          "total_debt": 8723
+        },
+        {
+          "period": {
+            "from": "2025-01-01",
+            "to": "2025-12-31"
+          },
+          "currency": "NOK",
+          "revenue": 0,
+          "operating_result": -34486,
+          "profit_before_tax": 1003808,
+          "net_result": 999620,
+          "total_assets": 7814799,
+          "equity": 7802053,
+          "total_debt": 12746
+        }
+      ],
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-30",
+        "ev-32",
+        "ev-38",
+        "ev-48",
+        "ev-49",
+        "ev-50",
+        "ev-51",
+        "ev-52",
+        "ev-53"
+      ],
+      "note": "All 3 company-level period(s) returned by Regnskapsregisteret, oldest first."
+    },
+    {
+      "field": "official_website",
+      "section": "website",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "note": "No website is listed in Enhetsregisteret; no other source is used to guess one."
+    },
+    {
+      "field": "careers_page",
+      "section": "hiring",
+      "value": null,
+      "availability": "not_available",
+      "confidence": null,
+      "evidence_ids": [],
+      "note": "No verified official website to look for a careers page on."
+    },
+    {
+      "field": "annual_account_filing_years",
+      "section": "financials",
+      "value": [
+        {
+          "year": "2021",
+          "official_copy_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/2021"
+        },
+        {
+          "year": "2022",
+          "official_copy_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/2022"
+        },
+        {
+          "year": "2023",
+          "official_copy_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/2023"
+        },
+        {
+          "year": "2024",
+          "official_copy_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/2024"
+        },
+        {
+          "year": "2025",
+          "official_copy_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/2025"
+        }
+      ],
+      "availability": "available",
+      "confidence": 0.99,
+      "evidence_ids": [
+        "ev-54"
+      ]
+    },
+    {
+      "field": "company_summary",
+      "section": "synthesis",
+      "value": "IHP INVEST AS is an aksjeselskap (AS) founded 2020-12-03, based in Oslo. Primary industry: Kjøp og salg av egen fast eiendom (NACE 68.110). Board chair: Inger Helene Paulsen Kildahl. FY ending 2025-12-31: revenue 0 NOK, net result 999,620.",
+      "availability": "available",
+      "confidence": 0.97,
+      "evidence_ids": [
+        "ev-2",
+        "ev-3",
+        "ev-4",
+        "ev-6",
+        "ev-11",
+        "ev-15",
+        "ev-16",
+        "ev-25",
+        "ev-30",
+        "ev-31",
+        "ev-32",
+        "ev-38"
+      ],
+      "note": "Deterministic summary composed only from the cited claims in this envelope."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "ev-1",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/organisasjonsnummer",
+      "claim_span": "\"organisasjonsnummer\": \"926311735\""
+    },
+    {
+      "id": "ev-2",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/navn",
+      "claim_span": "\"navn\": \"IHP INVEST AS\""
+    },
+    {
+      "id": "ev-3",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/organisasjonsform/kode",
+      "claim_span": "\"kode\": \"AS\""
+    },
+    {
+      "id": "ev-4",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/organisasjonsform/beskrivelse",
+      "claim_span": "\"beskrivelse\": \"Aksjeselskap\""
+    },
+    {
+      "id": "ev-5",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/registreringsdatoEnhetsregisteret",
+      "claim_span": "\"registreringsdatoEnhetsregisteret\": \"2020-12-30\""
+    },
+    {
+      "id": "ev-6",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/stiftelsesdato",
+      "claim_span": "\"stiftelsesdato\": \"2020-12-03\""
+    },
+    {
+      "id": "ev-7",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/vedtektsdato",
+      "claim_span": "\"vedtektsdato\": \"2020-12-03\""
+    },
+    {
+      "id": "ev-8",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/registrertIForetaksregisteret",
+      "claim_span": "\"registrertIForetaksregisteret\": true"
+    },
+    {
+      "id": "ev-9",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/registreringsdatoForetaksregisteret",
+      "claim_span": "\"registreringsdatoForetaksregisteret\": \"2020-12-30\""
+    },
+    {
+      "id": "ev-10",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/registrertIMvaregisteret",
+      "claim_span": "\"registrertIMvaregisteret\": false"
+    },
+    {
+      "id": "ev-11",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/naeringskode1",
+      "claim_span": "\"naeringskode1\": {\"beskrivelse\": \"Kjøp og salg av egen fast eiendom\", \"kode\": \"68.110\"}"
+    },
+    {
+      "id": "ev-12",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/institusjonellSektorkode",
+      "claim_span": "\"institusjonellSektorkode\": {\"beskrivelse\": \"Private aksjeselskaper mv.\", \"kode\": \"2100\"}"
+    },
+    {
+      "id": "ev-13",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/harRegistrertAntallAnsatte",
+      "claim_span": "\"harRegistrertAntallAnsatte\": false"
+    },
+    {
+      "id": "ev-14",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/forretningsadresse",
+      "claim_span": "\"forretningsadresse\": {\"adresse\": [\"c/o Tyveholmen Kontorfellesskap\", \"Tjuvholmen allé 19\"], \"kommune\": \"OSLO\", \"kommunenummer\": \"0301\", \"land\": \"Norge\", \"landkode\": \"NO\", \"postnummer\": \"0252\", \"poststed\": \"OSLO\"}"
+    },
+    {
+      "id": "ev-15",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/forretningsadresse/kommune",
+      "claim_span": "\"kommune\": \"OSLO\""
+    },
+    {
+      "id": "ev-16",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/forretningsadresse/kommunenummer",
+      "claim_span": "\"kommunenummer\": \"0301\""
+    },
+    {
+      "id": "ev-17",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/konkurs",
+      "claim_span": "\"konkurs\": false"
+    },
+    {
+      "id": "ev-18",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/underAvvikling",
+      "claim_span": "\"underAvvikling\": false"
+    },
+    {
+      "id": "ev-19",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/underTvangsavviklingEllerTvangsopplosning",
+      "claim_span": "\"underTvangsavviklingEllerTvangsopplosning\": false"
+    },
+    {
+      "id": "ev-20",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/kapital",
+      "claim_span": "\"kapital\": {\"antallAksjer\": 100, \"belop\": 30000, \"innfortDato\": \"2020-12-30\", \"type\": \"Aksjekapital\", \"valuta\": \"NOK\"}"
+    },
+    {
+      "id": "ev-21",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/vedtektsfestetFormaal",
+      "claim_span": "\"vedtektsfestetFormaal\": [\"Selskapets virksomhet er selv, gjennom hel- eller deleide selskaper, å\", \"drive investeringsvirksomhet, herunder investering i aksjer,\", \"obligasjoner, selskapsandeler, verdipapirer, fast eiendom, eller i\", \"annen virksomhet, og alt som er forbundet med dette.\"]"
+    },
+    {
+      "id": "ev-22",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/aktivitet",
+      "claim_span": "\"aktivitet\": [\"Selskapets virksomhet er selv, gjennom hel- eller deleide selskaper, å\", \"drive investeringsvirksomhet, herunder investering i aksjer,\", \"obligasjoner, selskapsandeler, verdipapirer, fast eiendom, eller i\", \"annen virksomhet, og alt som er forbundet med dette.\"]"
+    },
+    {
+      "id": "ev-23",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/erIKonsern",
+      "claim_span": "\"erIKonsern\": false"
+    },
+    {
+      "id": "ev-24",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:02Z",
+      "content_sha256": "1d468d91e40e2984999e00f0cc198de8c8f6aafd79bbcb543a073bd2b90c6e4d",
+      "http_status": 200,
+      "json_pointer": "/sisteInnsendteAarsregnskap",
+      "claim_span": "\"sisteInnsendteAarsregnskap\": \"2025\""
+    },
+    {
+      "id": "ev-25",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735/roller",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:03Z",
+      "content_sha256": "8173f7b2577a440f55c074dc570917ada6c718cf146c3daba9daa2544e921cb2",
+      "http_status": 200,
+      "json_pointer": "/rollegrupper/0/roller/0",
+      "claim_span": "\"rolle\": {\"role\": \"Styrets leder\", \"name\": \"Inger Helene Paulsen Kildahl\"}"
+    },
+    {
+      "id": "ev-26",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735/roller",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:03Z",
+      "content_sha256": "8173f7b2577a440f55c074dc570917ada6c718cf146c3daba9daa2544e921cb2",
+      "http_status": 200,
+      "json_pointer": "/rollegrupper/0/roller/1",
+      "claim_span": "\"rolle\": {\"role\": \"Styremedlem\", \"name\": \"Jørgen Andreas Paulsen\"}"
+    },
+    {
+      "id": "ev-27",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735/roller",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:03Z",
+      "content_sha256": "8173f7b2577a440f55c074dc570917ada6c718cf146c3daba9daa2544e921cb2",
+      "http_status": 200,
+      "json_pointer": "/rollegrupper/1/roller/0",
+      "claim_span": "\"rolle\": {\"role\": \"Regnskapsfører\", \"name\": \"STATEMENT AS\"}"
+    },
+    {
+      "id": "ev-28",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/enheter/926311735/roller",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:03Z",
+      "content_sha256": "8173f7b2577a440f55c074dc570917ada6c718cf146c3daba9daa2544e921cb2",
+      "http_status": 200
+    },
+    {
+      "id": "ev-29",
+      "source_url": "https://data.brreg.no/enhetsregisteret/api/underenheter?overordnetEnhet=926311735&size=200&page=0",
+      "source_class": "official_registry",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "0e5167d441567c3c403fab8ea796a6838098e19dd1fd96fb6132723e2bcc126a",
+      "http_status": 200,
+      "json_pointer": "/page/totalElements",
+      "claim_span": "\"totalElements\": 0"
+    },
+    {
+      "id": "ev-30",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/regnskapsperiode",
+      "claim_span": "\"regnskapsperiode\": {\"fraDato\": \"2025-01-01\", \"tilDato\": \"2025-12-31\"}"
+    },
+    {
+      "id": "ev-31",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/valuta",
+      "claim_span": "\"valuta\": \"NOK\""
+    },
+    {
+      "id": "ev-32",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/driftsresultat/driftsinntekter/sumDriftsinntekter",
+      "claim_span": "\"sumDriftsinntekter\": 0"
+    },
+    {
+      "id": "ev-33",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/driftsresultat/driftskostnad/sumDriftskostnad",
+      "claim_span": "\"sumDriftskostnad\": 34486"
+    },
+    {
+      "id": "ev-34",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/driftsresultat/driftskostnad/loennskostnad",
+      "claim_span": "\"loennskostnad\": 0"
+    },
+    {
+      "id": "ev-35",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/driftsresultat/driftsresultat",
+      "claim_span": "\"driftsresultat\": -34486"
+    },
+    {
+      "id": "ev-36",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/finansresultat/nettoFinans",
+      "claim_span": "\"nettoFinans\": 1038294"
+    },
+    {
+      "id": "ev-37",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/ordinaertResultatFoerSkattekostnad",
+      "claim_span": "\"ordinaertResultatFoerSkattekostnad\": 1003808"
+    },
+    {
+      "id": "ev-38",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/resultatregnskapResultat/aarsresultat",
+      "claim_span": "\"aarsresultat\": 999620"
+    },
+    {
+      "id": "ev-39",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/eiendeler/sumEiendeler",
+      "claim_span": "\"sumEiendeler\": 7814799"
+    },
+    {
+      "id": "ev-40",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/eiendeler/anleggsmidler/sumAnleggsmidler",
+      "claim_span": "\"sumAnleggsmidler\": 6787194"
+    },
+    {
+      "id": "ev-41",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/eiendeler/omloepsmidler/sumOmloepsmidler",
+      "claim_span": "\"sumOmloepsmidler\": 1027605"
+    },
+    {
+      "id": "ev-42",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/eiendeler/sumBankinnskuddOgKontanter",
+      "claim_span": "\"sumBankinnskuddOgKontanter\": 1027605"
+    },
+    {
+      "id": "ev-43",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/egenkapitalGjeld/egenkapital/sumEgenkapital",
+      "claim_span": "\"sumEgenkapital\": 7802053"
+    },
+    {
+      "id": "ev-44",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/egenkapitalGjeld/gjeldOversikt/sumGjeld",
+      "claim_span": "\"sumGjeld\": 12746"
+    },
+    {
+      "id": "ev-45",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/egenkapitalGjeld/gjeldOversikt/kortsiktigGjeld/sumKortsiktigGjeld",
+      "claim_span": "\"sumKortsiktigGjeld\": 12746"
+    },
+    {
+      "id": "ev-46",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/revisjon",
+      "claim_span": "\"revisjon\": {\"ikkeRevidertAarsregnskap\": false, \"fravalgRevisjon\": true}"
+    },
+    {
+      "id": "ev-47",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/2/avviklingsregnskap",
+      "claim_span": "\"avviklingsregnskap\": false"
+    },
+    {
+      "id": "ev-48",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/0/regnskapsperiode",
+      "claim_span": "\"regnskapsperiode\": {\"fraDato\": \"2023-01-01\", \"tilDato\": \"2023-12-31\"}"
+    },
+    {
+      "id": "ev-49",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/0/resultatregnskapResultat/driftsresultat/driftsinntekter/sumDriftsinntekter",
+      "claim_span": "\"sumDriftsinntekter\": 0"
+    },
+    {
+      "id": "ev-50",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/0/resultatregnskapResultat/aarsresultat",
+      "claim_span": "\"aarsresultat\": 106982"
+    },
+    {
+      "id": "ev-51",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/1/regnskapsperiode",
+      "claim_span": "\"regnskapsperiode\": {\"fraDato\": \"2024-01-01\", \"tilDato\": \"2024-12-31\"}"
+    },
+    {
+      "id": "ev-52",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/1/resultatregnskapResultat/driftsresultat/driftsinntekter/sumDriftsinntekter",
+      "claim_span": "\"sumDriftsinntekter\": 0"
+    },
+    {
+      "id": "ev-53",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/926311735",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:04Z",
+      "content_sha256": "9205fa14cf27ba4aa29431bfa276c3b845129a5cac1394604527804cf54bc13d",
+      "http_status": 200,
+      "json_pointer": "/1/resultatregnskapResultat/aarsresultat",
+      "claim_span": "\"aarsresultat\": 553357"
+    },
+    {
+      "id": "ev-54",
+      "source_url": "https://data.brreg.no/regnskapsregisteret/regnskap/aarsregnskap/kopi/926311735/aar",
+      "source_class": "official_annual_accounts",
+      "retrieved_at": "2026-11-17T10:11:17Z",
+      "content_sha256": "3224f0706bd3ffc731997668057588188a2f2ceb01a45d0d434e8929f7100c8e",
+      "http_status": 200,
+      "json_pointer": "/",
+      "claim_span": "\"aar\": [\"2021\", \"2022\", \"2023\", \"2024\", \"2025\"]"
+    }
+  ],
+  "changes": [],
+  "errors": [],
+  "operations": {
+    "requests": 5,
+    "cache_hits": 0,
+    "bytes_received": 8394,
+    "runtime_ms": 16486,
+    "third_party_cost_usd": 0,
+    "modules_skipped": []
+  }
+}

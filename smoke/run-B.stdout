@@ -1,0 +1,18 @@
+{
+  "run_id": "smoke-B",
+  "emitted_envelopes": 100,
+  "terminal_status_counts": {
+    "completed": 100
+  },
+  "wall_runtime_s": 213.1,
+  "per_company_runtime_ms": {
+    "mean": 16418,
+    "p50": 14739,
+    "p95": 31761,
+    "max": 35793
+  },
+  "claims_total": 5147,
+  "claims_available": 4827,
+  "changes_total": 0,
+  "validation_passed": true
+}

@@ -1,0 +1,250 @@
+{
+  "agent": {
+    "name": "Kinpaku Signalpost Agent",
+    "version": "1.0.0"
+  },
+  "run_id": "change-demo",
+  "started_at": "2026-11-17T10:18:08Z",
+  "completed_at": "2026-11-17T10:18:16Z",
+  "wall_runtime_s": 8.0,
+  "inputs": {
+    "unique": 2,
+    "duplicates_ignored": []
+  },
+  "emitted_envelopes": 2,
+  "resumed_envelopes": 0,
+  "hard_deadline_hit": false,
+  "terminal_status_counts": {
+    "completed": 2
+  },
+  "per_company_runtime_ms": {
+    "mean": 6645,
+    "p50": 7977,
+    "p95": 7977,
+    "max": 7977
+  },
+  "operations": {
+    "network_requests_total": 13,
+    "brreg_requests": 11,
+    "brreg_cache_hits": 0,
+    "brreg_p50_ms": 888,
+    "brreg_p95_ms": 1039,
+    "third_party_cost_usd": 0,
+    "paid_apis": [],
+    "models": []
+  },
+  "claims_total": 104,
+  "claims_available": 97,
+  "changes_total": 6,
+  "previous_snapshot": "smoke/change-demo/previous-tampered.jsonl",
+  "snapshot": "smoke/change-demo/state/snapshots/change-demo/envelopes.jsonl",
+  "section_availability": {
+    "financials": {
+      "available": 2
+    },
+    "group": {
+      "not_applicable": 1,
+      "available": 1
+    },
+    "hiring": {
+      "not_available": 2
+    },
+    "identity": {
+      "available": 2
+    },
+    "leadership": {
+      "available": 2
+    },
+    "website": {
+      "not_available": 2
+    },
+    "workplaces": {
+      "available": 2
+    }
+  },
+  "field_availability": {
+    "accountant": {
+      "available": 2
+    },
+    "accounts_audit": {
+      "available": 2
+    },
+    "annual_account_filing_years": {
+      "available": 2
+    },
+    "articles_of_association_date": {
+      "available": 2
+    },
+    "bankrupt": {
+      "available": 2
+    },
+    "board_chair": {
+      "available": 2
+    },
+    "board_members": {
+      "available": 1
+    },
+    "business_address": {
+      "available": 2
+    },
+    "business_register": {
+      "available": 2
+    },
+    "careers_page": {
+      "not_available": 2
+    },
+    "cash_and_bank_deposits": {
+      "available": 1
+    },
+    "chief_executive": {
+      "available": 1,
+      "not_available": 1
+    },
+    "company_summary": {
+      "available": 2
+    },
+    "contact_email": {
+      "available": 1
+    },
+    "contact_phone": {
+      "available": 1
+    },
+    "current_assets": {
+      "available": 2
+    },
+    "direct_subsidiaries": {
+      "available": 1
+    },
+    "employees": {
+      "not_available": 2
+    },
+    "equity": {
+      "available": 2
+    },
+    "financial_history": {
+      "available": 2
+    },
+    "fixed_assets": {
+      "available": 2
+    },
+    "foundation_date": {
+      "available": 2
+    },
+    "group_entity_count": {
+      "available": 1
+    },
+    "industry_primary": {
+      "available": 2
+    },
+    "institutional_sector": {
+      "available": 2
+    },
+    "latest_accounts_period": {
+      "available": 2
+    },
+    "latest_submitted_annual_accounts_year": {
+      "available": 2
+    },
+    "legal_name": {
+      "available": 2
+    },
+    "liquidation_accounts": {
+      "available": 2
+    },
+    "municipality": {
+      "available": 2
+    },
+    "net_financial_items": {
+      "available": 2
+    },
+    "net_result": {
+      "available": 2
+    },
+    "official_website": {
+      "not_available": 2
+    },
+    "operating_expenses": {
+      "available": 2
+    },
+    "operating_result": {
+      "available": 2
+    },
+    "organisation_form": {
+      "available": 2
+    },
+    "organisation_number": {
+      "available": 2
+    },
+    "part_of_group": {
+      "available": 2
+    },
+    "payroll_expenses": {
+      "available": 2
+    },
+    "profit_before_tax": {
+      "available": 2
+    },
+    "registered_activity": {
+      "available": 2
+    },
+    "registered_roles": {
+      "available": 2
+    },
+    "registered_workplace_count": {
+      "available": 2
+    },
+    "registered_workplaces": {
+      "available": 2
+    },
+    "registration_date": {
+      "available": 2
+    },
+    "registry_status": {
+      "available": 2
+    },
+    "revenue": {
+      "available": 1
+    },
+    "sales_revenue": {
+      "available": 1
+    },
+    "share_capital": {
+      "available": 2
+    },
+    "short_term_debt": {
+      "available": 2
+    },
+    "statutory_purpose": {
+      "available": 2
+    },
+    "total_assets": {
+      "available": 2
+    },
+    "total_debt": {
+      "available": 2
+    },
+    "under_forced_liquidation_or_dissolution": {
+      "available": 2
+    },
+    "under_liquidation": {
+      "available": 2
+    },
+    "vat_register": {
+      "available": 2
+    }
+  },
+  "validation": {
+    "passed": true,
+    "checks": {
+      "one_envelope_per_input": true,
+      "unique_organisation_numbers": true,
+      "all_terminal": true,
+      "contract_shape_and_evidence_links": true
+    },
+    "problems": []
+  },
+  "outputs": {
+    "envelopes_jsonl": "smoke/change-demo/envelopes.jsonl",
+    "envelope_dir": "smoke/change-demo/envelopes"
+  }
+}

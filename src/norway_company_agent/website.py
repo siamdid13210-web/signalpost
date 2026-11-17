@@ -37,6 +37,9 @@ PRIORITY_TERMS = (
 )
 
 
+FAKE_IP_RANGE = ipaddress.ip_network("198.18.0.0/15")
+
+
 def assert_public_url(url: str) -> None:
     parsed = urllib.parse.urlparse(url)
     host = (parsed.hostname or "").lower().rstrip(".")
@@ -48,8 +51,18 @@ def assert_public_url(url: str) -> None:
         addresses = {item[4][0] for item in socket.getaddrinfo(host, parsed.port or (443 if parsed.scheme == "https" else 80), type=socket.SOCK_STREAM)}
     except socket.gaierror as exc:
         raise ValueError("Hostname did not resolve") from exc
+    proxied = bool(urllib.request.getproxies().get(parsed.scheme)) and not urllib.request.proxy_bypass(host)
+    host_is_literal = True
+    try:
+        ipaddress.ip_address(host.strip("[]"))
+    except ValueError:
+        host_is_literal = False
     for address in addresses:
         ip = ipaddress.ip_address(address)
+        # Fake-IP DNS behind an explicit egress proxy (RFC 2544 198.18.0.0/15): the proxy resolves the real
+        # host, so the local placeholder address is not an SSRF target. Only for hostnames, never IP literals.
+        if proxied and not host_is_literal and ip in FAKE_IP_RANGE:
+            continue
         if not ip.is_global:
             raise ValueError("Private, loopback, link-local, multicast, and reserved addresses are blocked")
 

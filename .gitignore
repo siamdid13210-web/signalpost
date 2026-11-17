@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.pyc
+out/
+/state/
+*.tmp
+.pytest_cache/
+*.partial.jsonl

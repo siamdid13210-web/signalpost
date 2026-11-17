@@ -1,0 +1,18 @@
+{
+  "runs": [
+    {
+      "run_id": "smoke-A",
+      "completed_at": "2026-11-17T10:14:18Z",
+      "path": "snapshots/smoke-A/envelopes.jsonl",
+      "count": 100,
+      "claims_digest": "a9709fa5966d340d4b1bd3c9c298278bff4dd20c8e2bf040c1246114541b3fe9"
+    },
+    {
+      "run_id": "smoke-B",
+      "completed_at": "2026-11-17T10:17:54Z",
+      "path": "snapshots/smoke-B/envelopes.jsonl",
+      "count": 100,
+      "claims_digest": "a9709fa5966d340d4b1bd3c9c298278bff4dd20c8e2bf040c1246114541b3fe9"
+    }
+  ]
+}

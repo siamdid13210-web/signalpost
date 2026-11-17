@@ -1,0 +1,11 @@
+{
+  "runs": [
+    {
+      "run_id": "change-demo",
+      "completed_at": "2026-11-17T10:18:16Z",
+      "path": "snapshots/change-demo/envelopes.jsonl",
+      "count": 2,
+      "claims_digest": "9a5e1fc5abc50c6aa6467cdfde4de3b2b65c9d666c1daa373e027ad8cd9e3c5a"
+    }
+  ]
+}
